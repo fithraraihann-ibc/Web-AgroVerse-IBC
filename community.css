@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* HEADER */
+.page-header {
+  background-color: #f8f9fa;
+  padding: 30px 80px 20px 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #2e8b57;
+}
+
+.breadcrumb span {
+  color: #666;
+}
+
+/* MAIN LAYOUT */
+.content {
+  display: flex;
+  gap: 40px;
+  padding: 40px 80px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 280px;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e8b57;
+  margin-bottom: 12px;
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  flex: 1;
+}
+
+.search-bar button {
+  border: none;
+  background: #f0f0f0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.filter label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #444;
+}
+
+/* COMMUNITY LIST */
+.community-list {
+  flex: 1;
+}
+
+.count {
+  margin-bottom: 20px;
+  color: #444;
+  font-weight: 500;
+}
+
+.community-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.community-card:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.community-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.community-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.community-info p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.join-btn {
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.join-btn:hover {
+  background-color: #2e8b57;
+  color: #fff;
+  border-color: #2e8b57;
+}
